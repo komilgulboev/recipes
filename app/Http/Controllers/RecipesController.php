@@ -24,20 +24,21 @@ class RecipesController extends Controller
     /**
      * Insert database for recipes
      * Url : /recipes/create
-     */    public function create(Request $request)
+     */    
+    public function create(Request $request)
     {
         $this->validate($request, [
             'recipe_code' => 'required',
             'recipe_name' => 'required',
             'recipe_description' => 'required',
-            'recipe_author' => 'required',
+            //'recipe_author' => 'required',
         ]);
 
         $recipes = Recipes::create([
             'recipe_code' => $request->input('recipe_code'),
             'recipe_name' => $request->input('recipe_name'),
             'recipe_description' => $request->input('recipe_description'),
-            'recipe_author' => $request->input('recipe_author'),
+            //'recipe_author' => $request->input('recipe_author'),
         ]);
 
         $res['success'] = true;
@@ -70,14 +71,14 @@ class RecipesController extends Controller
             'recipe_code' => 'required',
             'recipe_name' => 'required',
             'recipe_description' => 'required',
-            'recipe_author' => 'required',
+            //'recipe_author' => 'required',
         ]);
 
         $recipes = Recipes::where('id', $id)->update([
             'recipe_code' => $request->input('recipe_code'),
             'recipe_name' => $request->input('recipe_name'),
             'recipe_description' => $request->input('recipe_description'),
-            'recipe_author' => $request->input('recipe_author'),
+            //'recipe_author' => $request->input('recipe_author'),
         ]);
 
         if ($recipes == 0) {

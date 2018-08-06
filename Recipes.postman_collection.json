@@ -1,0 +1,366 @@
+{
+	"id": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+	"name": "Recipes",
+	"description": "",
+	"order": [
+		"0f09316e-0e17-43d6-7d95-c70f5562fb7b",
+		"c8fcc5d7-5b7f-50ab-ade7-1df1f1ab70b8",
+		"40d19c83-df50-6e79-49fc-fc30b396e092",
+		"d8832304-6aa8-d4eb-706c-90254d447e29",
+		"3a067a56-6fcf-01ba-bda8-3a61153a026c",
+		"9c591763-93ad-a938-8b40-431908fd6a5f",
+		"f46a96c4-34c9-8413-95d9-795ae9ca724a",
+		"d087df77-961a-91d7-7fad-8c909167eec6",
+		"e5af9300-eb44-d65f-1aa9-bb2e250c63c1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1533525880404,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0f09316e-0e17-43d6-7d95-c70f5562fb7b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes?api_token=a5743be204951dd1662fe0d6f49bba195f134fba",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "a5743be204951dd1662fe0d6f49bba195f134fba",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": null,
+			"dataMode": "params",
+			"name": "Recipes List",
+			"description": "Recipes Lists",
+			"descriptionFormat": "html",
+			"time": 1533525889887,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3a067a56-6fcf-01ba-bda8-3a61153a026c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes?api_token=a5743be204951dd1662fe0d6f49bba195f134fba",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "a5743be204951dd1662fe0d6f49bba195f134fba",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": null,
+			"dataMode": "params",
+			"name": "Recipes List",
+			"description": "Recipes list",
+			"descriptionFormat": "html",
+			"time": 1533526012669,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "40d19c83-df50-6e79-49fc-fc30b396e092",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/user/id=1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": [
+				{
+					"key": "email",
+					"value": "bb@bb.bb",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "User Information",
+			"description": "User Information",
+			"descriptionFormat": "html",
+			"time": 1533525983021,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9c591763-93ad-a938-8b40-431908fd6a5f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes/delete/1?api_token=ada3b54f91430ddfee8584098ccc460df3bb124a",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "ada3b54f91430ddfee8584098ccc460df3bb124a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": null,
+			"dataMode": "params",
+			"name": "Recipes Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1533539867902,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c8fcc5d7-5b7f-50ab-ade7-1df1f1ab70b8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": [
+				{
+					"key": "email",
+					"value": "komil@mail.ru",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Registration",
+			"description": "User Registration",
+			"descriptionFormat": "html",
+			"time": 1533525967325,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d087df77-961a-91d7-7fad-8c909167eec6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes/create?api_token=ada3b54f91430ddfee8584098ccc460df3bb124a",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "ada3b54f91430ddfee8584098ccc460df3bb124a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": [
+				{
+					"key": "recipe_code",
+					"value": "4",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "recipe_name",
+					"value": "Pumpkin Cake",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "recipe_description",
+					"value": "Pimpkin + Cake ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "recipe_author",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Recipes Create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1533541023036,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d8832304-6aa8-d4eb-706c-90254d447e29",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": [
+				{
+					"key": "email",
+					"value": "aa@aa.aa",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "User Login",
+			"description": "Login",
+			"descriptionFormat": "html",
+			"time": 1533525994414,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e5af9300-eb44-d65f-1aa9-bb2e250c63c1",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes/update/4?api_token=ada3b54f91430ddfee8584098ccc460df3bb124a",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "ada3b54f91430ddfee8584098ccc460df3bb124a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": null,
+			"dataMode": "params",
+			"name": "Recipes Update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1533541107104,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f46a96c4-34c9-8413-95d9-795ae9ca724a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/recipes/1?api_token=ada3b54f91430ddfee8584098ccc460df3bb124a",
+			"queryParams": [
+				{
+					"key": "api_token",
+					"value": "ada3b54f91430ddfee8584098ccc460df3bb124a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5288010e-7cb2-fd66-f2ab-21f5de3e1040",
+			"data": null,
+			"dataMode": "params",
+			"name": "Recipes Info",
+			"description": "\t\t",
+			"descriptionFormat": "html",
+			"time": 1533539956890,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
